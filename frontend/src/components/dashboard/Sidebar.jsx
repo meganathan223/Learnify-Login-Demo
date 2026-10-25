@@ -18,7 +18,7 @@ export default function Sidebar() {
           className="flex h-10 w-10 items-center justify-center
           rounded-xl bg-indigo-600 text-xl text-white"
         >
-          ✦
+          💻
         </div>
         <span className="text-lg font-bold text-slate-900">Learnify</span>
       </div>
