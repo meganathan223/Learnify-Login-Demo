@@ -11,7 +11,7 @@ export default function Sidebar() {
   return (
     <aside
       className="hidden min-h-screen w-64 shrink-0
-      border-r border-slate-200 bg-white p-6 md:block"
+      border-r border-gray-50 p-6 md:block"
     >
       <div className="mb-10 flex items-center gap-3">
         <div

@@ -43,7 +43,7 @@ Learnify-Login-Demo/
 
 ```bash
 git clone YOUR_REPOSITORY_URL
-cd LearnSphere
+cd Learnify-Login-Demo
 ```
 
 ### 2. Start the backend

@@ -1,9 +1,9 @@
 export default function BrandPanel() {
   return (
     <section
-      className="relative flex min-h-[300px] flex-col
+      className="relative flex  flex-col
       justify-between overflow-hidden bg-slate-950 p-8 text-white
-      sm:p-10 lg:min-h-screen lg:w-1/2 lg:p-14"
+      sm:p-10 lg:p-14 lg:w-1/2"
     >
       <div
         className="absolute -left-24 top-24 h-72 w-72

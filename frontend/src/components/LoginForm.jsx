@@ -50,7 +50,7 @@ export default function LoginForm({ onSuccess }) {
   }
 
   return (
-    <div className="w-full">
+    <div className="w-full max-w-md p-4 rounded-2xl">
       <div className="mb-8">
         <p className="text-sm font-semibold tracking-wide text-indigo-600">
           LEARNIFY ACCOUNT
@@ -106,10 +106,9 @@ export default function LoginForm({ onSuccess }) {
             text-white shadow-lg shadow-indigo-600/20 transition
             hover:bg-indigo-700 focus:outline-none focus:ring-4
             focus:ring-indigo-200 disabled:cursor-not-allowed
-            disabled:opacity-60"
+            disabled:opacity-60 cursor-pointer"
         >
-          {loading ? "Signing in..." : "Sign in to Learnify"}
-          {!loading && <span aria-hidden="true">→</span>}
+          {loading ? "Signing in..." : "Sign in to Learnify →"}
         </button>
       </form>
 
@@ -128,7 +127,7 @@ export default function LoginForm({ onSuccess }) {
             onClick={handleQuickFill}
             className="rounded-lg bg-white px-3 py-1.5 text-xs
               font-semibold text-indigo-700 shadow-sm transition
-              hover:bg-indigo-100"
+              hover:bg-indigo-100 cursor-pointer"
           >
             Quick Fill
           </button>
